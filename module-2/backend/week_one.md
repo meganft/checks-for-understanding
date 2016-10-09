@@ -5,13 +5,13 @@ Fork this respository. Answer the questions to the best of your ability. Try to 
 Note: When you're done, submit a PR. 
 
 1. List the five common HTTP verbs and what the purpose is of each verb.
-*
-  GET - read data
+
+  *GET - read data
   POST - insert data
   PUT - update data
   PATCH - update data?
-  DELETE - delete data
-*
+  DELETE - delete data*
+
   
 2. What is Sinatra?
 *
