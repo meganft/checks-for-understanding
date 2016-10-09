@@ -44,51 +44,43 @@ Note: When you're done, submit a PR.
 
 
 7. In the same code block, how would I pass a local variable `name` with a value of `Mr. Ed`?
-  ```
-  update the row erb :index to be erb :index, :locals=> {:name => "Mr. Ed"}
-  ```
+
+  *update the row erb :index to be erb :index, :locals=> {:name => "Mr. Ed"}*
 
 8. What's the purpose of ERB?
-```
-   It allows us to use ruby code in our HTML view
- ```
+
+   *It allows us to use ruby code in our HTML view*
+
   
 9. Why do I need a development AND test database?
-```
-    You need both so that you can test without it impacting your database
-  ```
+
+    *You need both so that you can test without it impacting your database*
 
 10. What's responsive design?
-```
-    Design that adapts to different screen sizes 
-  ```
+
+    *Design that adapts to different screen sizes*
   
 11. What is CRUD and why is it important?
-```
-    CRUD stands for create, read, update and delete.  
-    It's important because it represents the basic functions of an application that interacts with a database
-  ```
+
+    *CRUD stands for create, read, update and delete.  
+    It's important because it represents the basic functions of an application that interacts with a database*
     
 12. What does HTTP stand for? 
-```
-    Hyper Text transfer protocol
-  ```
+
+    *Hyper Text transfer protocol*
     
 13. What are the two ways to interpolate Ruby in an ERB view template? What's the difference between these two ways?
-```
-  <%= ruby code %> prints out the code
-  <% ruby code %> runs code but doesn't print it
-```
+
+  *<%= ruby code %> prints out the code
+  <% ruby code %> runs code but doesn't print it*
 
 14. What's an ORM?
-```
-  Object relationship mapping
- ```
+
+  *Object relationship mapping*
 
 15. What's the most commonly used ORM?  
-```
-  Active record?
-```
+
+  *Active record?*
 
 16. Let's say we have an application with restaurants. There are seven verb + path combinations necessary to provide full CRUD functionality for our restaurant application. List each of the seven combinations, and explain what each is for.
  ```
@@ -116,17 +108,13 @@ Note: When you're done, submit a PR.
 
 
 17. What's a migration? 
-```
-  A way to run files that will make changes to the database/schema
- ```
+
+  *A way to run files that will make changes to the database/schema*
 
 18. When you create a migration, does it automatically modify your database?
-```
-  Only after you run rake db:migrate
- ```
+
+  *Only after you run rake db:migrate*
   
 19. How does a model relate to a database?
-```
-  A model represents the table in a database. This is where you have all of your methods.
 
-``
+  *A model represents the table in a database. This is where you have all of your methods.*
