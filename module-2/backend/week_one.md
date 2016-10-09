@@ -5,18 +5,18 @@ Fork this respository. Answer the questions to the best of your ability. Try to 
 Note: When you're done, submit a PR. 
 
 1. List the five common HTTP verbs and what the purpose is of each verb.
-```
+*
   GET - read data
   POST - insert data
   PUT - update data
   PATCH - update data?
   DELETE - delete data
- ```
+*
   
 2. What is Sinatra?
-```
+*
   Sinatra is a gem you install that makes it easy to test and host new web applications locally
-```
+*
  
 3. What is MVC?
 ```
