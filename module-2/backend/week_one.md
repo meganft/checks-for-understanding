@@ -14,24 +14,22 @@ Note: When you're done, submit a PR.
 
   
 2. What is Sinatra?
-*
-  Sinatra is a gem you install that makes it easy to test and host new web applications locally
-*
+
+ *Sinatra is a gem you install that makes it easy to test and host new web applications locally*
+
  
 3. What is MVC?
-```
-  Acronym for Model, View, Controller. It's how we structure our apps. 
-```
+
+  *Acronym for Model, View, Controller. It's how we structure our apps.*
+
 
 4. Why do we follow conventions when creating our actions/path names in our Sinatra routes?
- ```
-  To make it easy for other developers to read/understand 
- ```
+
+  *To make it easy for other developers to read/understand*
  
 5. What types of variables are accessible in our view templates without explicitly passing them?
-  ```
-  Instance variables
- ```
+
+  *Instance variables*
   
 6. Given the following block of code, how would I pass an instance variable `count` with a value of `1` to my `index.erb` template?
   
@@ -41,9 +39,9 @@ Note: When you're done, submit a PR.
   end
   ```
 
-```
-Add @count = 1 inside your get '/horses/ loop
-```
+
+*Add @count = 1 inside your get '/horses/ loop*
+
 
 7. In the same code block, how would I pass a local variable `name` with a value of `Mr. Ed`?
   ```
