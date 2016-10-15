@@ -33,7 +33,8 @@ A teacher model(class) could has_many: students, while the students model class 
 
 9. In a database that's holding students and teachers, what will be the relationship between students and teachers? Draw the schema diagram.<br>
 *tables below
-```Students table               
+```
+Students table               
   id
   student name
   grad
