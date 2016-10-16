@@ -44,7 +44,7 @@ Cars and dealerships would have a one to many relationship in that a car would b
 *A status line, a header, and a body*
 
 13. `Rack::Test` allows us to test our controllers in isolation. What are some of the methods it gives us to simulate the request/response cycle?<br>
-*Methods include: .to eq(), expect(page), click_on(link), to_not eq() *
+*Methods include: .to eq(), expect(page), click_on(link), to_not eq()*
 
 14. Describe some techniques to make our Sinatra views more DRY. Give an example of when you would use these techniques.<br>
 *You can extract repetitive portions of your view into a partial, such as a form that is very similar on a new page and in an edit page.*
@@ -54,9 +54,9 @@ Cars and dealerships would have a one to many relationship in that a car would b
 
 1. Name your five favorite ActiveRecord methods (i.e. methods your models inherit from ActiveRecord) and describe what they do.
 2. Name your three favorite ActiveRecord rake tasks and describe what they do.<br>
-*rake db:create
-rake db:test:prepare
-rake db:migrate*
+*rake db:create <br>
+rake db:test:prepare<br>
+rake db:migrate*<br>
 
 3. What's the difference between agile workflow and waterfall method?<br>
 *Answered above!*
