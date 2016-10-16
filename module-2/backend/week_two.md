@@ -31,7 +31,7 @@ Cars and dealerships would have a one to many relationship in that a car would b
 *cURL allows you to transfer data to a server*
 
 9. In a database that's holding students and teachers, what will be the relationship between students and teachers? Draw the schema diagram.<br>
-*They have a many to many relationship, since students have many teachers and teachers also have many students. Therefore we would have to make a join table, called students_teachers.
+*They have a many to many relationship, since students have many teachers and teachers also have many students. Therefore we would have to make a join table, called students_teachers.*
 ```
 Students table               
   id
