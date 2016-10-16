@@ -15,10 +15,10 @@ Note: When you're done, submit a PR.
 
 4. What kind of methods are `belongs_to`, and `has_many`? (i.e. class or instance) Give an example.<br>
 *These are class methods.<br>
-Cars and dealerships would have a one to many relationship in that a car would belong to a dealership but a dealership could have many cars.*
+Cars and dealerships would have a one to many relationship in that a car would belong_to a dealership but a dealership could has_many cars.*
 
 5. What do they allow you to do?<br>
-*They allow you to associate tables with other tables. The data in these tables are therefore accessible through these relationships.*
+*They allow you to associate tables with other tables via a foriegn key.*
 
 6. What's the difference between agile workflow and waterfall method?<br>
 *Agile workflow aims to break up a project into smaller parts that are tested and complete on their own. You could therefore have a very small working part of your project before your move on to starting the next part.   Waterfall method takes the whole project together, plans for it and impltements it.  This makes it much harder to make changes along the way and adapt to new problems, which would be much easier in the agile method.*
@@ -28,17 +28,11 @@ Cars and dealerships would have a one to many relationship in that a car would b
 
 
 8. At a basic level, what does cURL allow you to do?<br>
-*cURL allows you to transfer data to a server*
+*cURL allows you to transfer data to a server through the command line.*
 
 9. In a database that's holding students and teachers, what will be the relationship between students and teachers? Draw the schema diagram.<br>
-*They have a many to many relationship, since students have many teachers and teachers also have many students. Therefore we would have to make a join table, called students_teachers.*
-```
-Students table               
-  id
-  student name
-  grad
+*They have a many to many relationship, since students have many teachers and teachers also have many students. Therefore we would have to make a join table, called students_teachers. This students_teachers would have it's own primary id, as well as the teacher_id and the student_id.*
 
-```
 
 10. Define foreign key, primary key, and schema.<br>
 *A primary key is the unique identifier for the row of data in that table. A foreign key is a primary key in a different table, that is used to make an association in our current table. Schema is the structure of our database, showing us what is in each table.*
@@ -73,7 +67,7 @@ rake db:migrate*
 *Created_at and updated_at*
 
 6. What cURL flag can you use to send a `POST` request?<br>
-*-d?*
+*-d  ?*
 
 7. What case does JSON (and JavaScript) use for multi-word variables?<br>
 *JSON uses CamelCase*
