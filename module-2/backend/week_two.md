@@ -31,23 +31,23 @@ Cars and dealerships would have a one to many relationship in that a car would b
 *cURL allows you to transfer data to a server through the command line.*
 
 9. In a database that's holding students and teachers, what will be the relationship between students and teachers? Draw the schema diagram.<br>
-*They have a many to many relationship, since students have many teachers and teachers also have many students. Therefore we would have to make a join table, called students_teachers. This students_teachers would have it's own primary id, as well as the teacher_id and the student_id.*
+*They have a many to many relationship, since students have many teachers and teachers also have many students. Therefore we would have to make a join table, called students_teachers. This students_teachers would have it's own primary id, as well as the teacher_id and the student_id. In the schema diagram, these last two ids on the students_teachers table would point to the primary ids on the student table and teacher table, respectively.*
 
 
 10. Define foreign key, primary key, and schema.<br>
 *A primary key is the unique identifier for the row of data in that table. A foreign key is a primary key in a different table, that is used to make an association in our current table. Schema is the structure of our database, showing us what is in each table.*
 
 11. Describe the relationship between a foreign key on one table and a primary key on another table. <br>
-*A primary key of one table becomes the foreign key on a different associated table.  On the car / dealerships example, where the dealership has many cars, the car table would have the foreign key of the dealership on it. *
+*A primary key of one table becomes the foreign key on a different associated table.  On the car / dealerships example, where the dealership has many cars, the car table would have the foreign key of the dealership on it. So car table would have id, name, make, model, etc, and dealership_id.*
 
 12. What are the parts of an HTTP response?<br>
 *A status line, a header, and a body*
 
-13. `Rack::Test` allows us to test our controllers in isolation. What are some of the methods it gives us to simulate the request/response cycle?
+13. `Rack::Test` allows us to test our controllers in isolation. What are some of the methods it gives us to simulate the request/response cycle?<br>
 *Methods include: .to eq(), expect(page), click_on(link), to_not eq() *
 
 14. Describe some techniques to make our Sinatra views more DRY. Give an example of when you would use these techniques.<br>
-*You can extract repetitive portions of your view into a partial, such as a form that is very similar in a new page and in an update page.*
+*You can extract repetitive portions of your view into a partial, such as a form that is very similar on a new page and in an edit page.*
 
 
 ### Optional Questions
