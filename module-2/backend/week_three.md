@@ -28,7 +28,7 @@ Note: When you're done, submit a PR with a reflection in the comments about how 
 A route helper is something like `edit_company_path(company)`. You would use this in your rails app when linking to the page to edit a specific company, in this instance.
 
 7. What's the difference between what `_url` and `_path` return when combined with a routes prefix?<br>
-I don't think I've ever used `_url`, but I imagine it would like you to an actual url rather than the path we have defined based on our routes.
+I don't think I've ever used `_url`, but I imagine it would like you to an actual url rather than the path we have defined based on our routes?
 
 8. What are strong params and why are the necessary? <br>
 Strong params provide us with another level of security from submitted data. We only want to receive the permitted info so we define that in our controller.
