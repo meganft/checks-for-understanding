@@ -19,10 +19,10 @@ Note: When you're done, submit a PR with a reflection in the comments about how 
 `ApplicationController`
 
 4. How would I create a route if I wanted to see a specific horse in my routes file assuming I'm sticking to standard conventions and that I didn't want other CRUD functionality?<br>
-`resources :horses only: [:show]`
+`resources :horses, only: [:show]`
 
 5. What rake task is useful when looking at routes, and what information does it give you?<br>
-`rake routes`. It shows you all current routes available in your rails app.`
+`rake routes`. It shows you all current routes available in your rails app.
 
 6. What is an example of a route helper? When would you use them?<br>
 A route helper is something like `edit_company_path(company)`. You would use this in your rails app when linking to the page to edit a specific company, in this instance.
