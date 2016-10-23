@@ -27,12 +27,14 @@ Note: When you're done, submit a PR with a reflection in the comments about how 
 6. What is an example of a route helper? When would you use them?<br>
 A route helper is something like `edit_company_path(company)`. You would use this in your rails app when linking to the page to edit a specific company, in this instance.
 
-7. What's the difference between what `_url` and `_path` return when combined with a routes prefix?
+7. What's the difference between what `_url` and `_path` return when combined with a routes prefix?<br>
+I don't think I've ever used `_url`, but I imagine it would like you to an actual url rather than the path we have defined based on our routes.
 
 8. What are strong params and why are the necessary? <br>
+Strong params provide us with another level of security from submitted data. We only want to receive the permitted info so we define that in our controller.
 
 9. What role does `form_for` play in helping us create our forms? <br>
-
+It is a rails helper method that caputeres user input data.
 
 10. How does `form_for` know where to submit the user's input? <br>
 Based on the variable we passed to it. If it was a form_for @horse, it would know that it was dealing with an instance of a horse.
@@ -50,4 +52,5 @@ Based on the variable we passed to it. If it was a form_for @horse, it would kno
 <% end %>
 ```
 
-12. Why do we want to validate our models?
+12. Why do we want to validate our models?<br>
+We do this to ensure that the relationships between our tables works correctly.
