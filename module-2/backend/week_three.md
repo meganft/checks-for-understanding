@@ -39,7 +39,7 @@ Based on the variable we passed to it. If it was a form_for @horse, it would kno
 
 11. Create a form using a `form_for` helper to create a new `Horse`. <br>
 ```
-<% form_for (@horse) do |f| %>
+<%= form_for (@horse) do |f| %>
   <%= f.label name %>
   <%= f.text_field name %>
   
